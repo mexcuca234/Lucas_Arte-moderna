@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
   }
   
+footer a{
+  color: #fff;
+}
+
   footer {
     background-color: #333;
     color: #fff;
@@ -165,4 +169,10 @@ nav a:hover:before {
   height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
   display: block; /* Evita espacios no deseados debajo de la imagen */
   margin: 20px auto; /* Margen para centrar la imagen horizontalmente */
+}
+
+
+.info iframe{
+  display: block;
+  margin: 0 auto;
 }
